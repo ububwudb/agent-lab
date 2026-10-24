@@ -1,0 +1,34 @@
+# 密钥
+.env
+*.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物
+tmp/
+*.mp3
+*.jpg
+*.png
+!assets/**/*.png
+notes.md
+
+# 模型权重 / 数据集（体积大，不入库）
+*.pt
+*.pth
+*.tar
+*.safetensors
+datasets/
+outputs/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

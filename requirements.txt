@@ -1,0 +1,15 @@
+# 01 / 02：ReAct Agent（最小依赖）
+requests>=2.31
+python-dotenv>=1.0
+
+# 02：LangChain 版
+langchain>=1.0
+langchain-openai>=1.0
+langgraph>=1.0
+
+# 03：多模态 Agent
+gradio>=5.0
+opencv-python>=4.8
+pillow>=10.0
+numpy>=1.24
+edge-tts>=6.1
